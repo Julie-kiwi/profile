@@ -1,0 +1,125 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+  }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #DDD7C6;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  color :#311d3f;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  color :#522546;
+  text-align: center;
+  font-weight:100;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  color:#88304e;
+}
+
+a {
+  color:#e23e57;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#ff5733;
+}
+
+p {
+  color : #52424D;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.text-center {
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#img-profile {
+  border : 3px solid #311d3f;
+  width: 200px;
+  height: 200px;
+}
+
+#bands_pic {
+  width: 287px;
+  height: 194px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.btn-purple {
+  background-color : #800040;
+  color : white;
+  padding : 5px;
+  border-radius:6px;
+}
+
+.btn-purple:hover {
+  background-color : #ff5733;
+  color :white;
+}
+
+.fab {
+  font-size : 40px;
+  line-height: 50px;
+}
+
+#bands td {
+  padding: 10px;
+}
+

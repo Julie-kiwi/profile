@@ -8,67 +8,77 @@
     <link rel="stylesheet" href="style.css">
 
   </head>
-    <body>
-      <div class="container">
-        <div class="card text-center">
-          <img class="img-circle" id = "img-profile" src="images/profile.png" alt="profile picture">
-          <h1>Julie Jaumary</h1>
-          <h2>Dev web @ Le Wagon</h2>
-          <p>After being an office manager for 6 years I got bored and wanted to start a new challenge at <strong>Le Wagon </strong>!</p>
-          <a href="#" class = "btn-purple">Click on my amazing button !</a>
-        </div>
-
-        <div class="card text-center">
-          <ul class=" list-inline ">
-            <li><a href="#"><i class="fab fa-facebook-square"></i> <br>Facebook</a></li>
-            <li><a href="#"><i class="fab fa-linkedin"></i> <br>Linkedin</a></li>
-            <li><a href="#"><i class="fab fa-github-square"></i> <br>Github</a></li>
-          </ul>
-        </div>
-
-        <div class="card">
-        <h2>My favorite rock bands</h2>
-
-        <table id = "bands">
-          <tbody>
-            <tr>
-              <td>
-                <img id = "bands_pic" src="images/muse.jpg" alt="" alt="Muse">
-              </td>
-              <td>
-                <h3>Muse</h3>
-                <p>Muse are an English rock band from Teignmouth, Devon, formed in 1994. The band consists of Matt Bellamy, Chris Wolstenholme, and Dominic Howard.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img id = "bands_pic" src="images/linkin park.jpg" alt="" alt="Linkin Park">
-              </td>
-              <td>
-                <h3>Linkin Park</h3>
-                <p>Linkin Park is an American rock band from Agoura Hills, California. Formed in 1996, the band rose to international fame with their debut album Hybrid Theory (2000).</p>
-              </td>
-            </tr>
-            <tr>
-            <td>
-              <img id = "bands_pic" src="images/a7x.jpg" alt="" alt="Avenged Sevenfold">
-            </td>
-            <td>
-              <h3>Avenged Sevenfold</h3>
-              <p>Avenged Sevenfold (sometimes abbreviated as A7X) is an American heavy metal band from Huntington Beach, California, formed in 1999. </p>
-            </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-
-
-        <div class="card text-center">
-        <h2>About this page</h2>
-           This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
-        </div>
+    <div id="sidebar" class = "text-center">
+      <a href="#profile-card"><i class="fas fa-address-card"></i></a>
+      <br>
+      <a href="#music"><i class="fas fa-music"></i></a>
+      <br>
+      <a href="#random-text"><i class="fas fa-thumbs-up"></i></a>
     </div>
+
+    <div id="page-content">
+      <body>
+        <div class="container">
+          <div class="card text-center" id="profile-card">
+            <img class="img-circle" id = "img-profile" src="images/profile.png" alt="profile picture">
+            <h1>Julie Jaumary</h1>
+            <h2>Dev web @ Le Wagon</h2>
+            <p>After being an office manager for 6 years I got bored and wanted to start a new challenge at <strong>Le Wagon </strong>!</p>
+            <a href="#" class = "btn-purple">Click on my amazing button !</a>
+          </div>
+
+          <div class="card text-center">
+            <ul class=" list-inline ">
+              <li><a href="#"><i class="fab fa-facebook-square"></i> <br>Facebook</a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i> <br>Linkedin</a></li>
+              <li><a href="https://github.com/Julie-kiwi"><i class="fab fa-github-square"></i> <br>Github</a></li>
+            </ul>
+          </div>
+
+          <div class="card" id="music">
+          <h2>My favorite rock bands</h2>
+
+          <table id = "bands">
+            <tbody>
+              <tr>
+                <td>
+                  <img id = "bands_pic" src="images/muse.jpg" alt="" alt="Muse">
+                </td>
+                <td>
+                  <h3>Muse</h3>
+                  <p>Muse are an English rock band from Teignmouth, Devon, formed in 1994. The band consists of Matt Bellamy, Chris Wolstenholme, and Dominic Howard.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img id = "bands_pic" src="images/linkin park.jpg" alt="" alt="Linkin Park">
+                </td>
+                <td>
+                  <h3>Linkin Park</h3>
+                  <p>Linkin Park is an American rock band from Agoura Hills, California. Formed in 1996, the band rose to international fame with their debut album Hybrid Theory (2000).</p>
+                </td>
+              </tr>
+              <tr>
+              <td>
+                <img id = "bands_pic" src="images/a7x.jpg" alt="" alt="Avenged Sevenfold">
+              </td>
+              <td>
+                <h3>Avenged Sevenfold</h3>
+                <p>Avenged Sevenfold (sometimes abbreviated as A7X) is an American heavy metal band from Huntington Beach, California, formed in 1999. </p>
+              </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+
+          <div class="card text-center" id="random-text">
+          <h2>About this page</h2>
+             This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
+          </div>
+      </div>
   </body>
+  </div>
 </html>
 <!-- end of file -->

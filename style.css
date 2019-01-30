@@ -123,3 +123,21 @@ div {
   padding: 10px;
 }
 
+#sidebar {
+  position: fixed;
+  width: 75px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color:#800040;
+  color: lightgrey;
+  font-size : 30px;
+  line-height: 100px;
+}
+#page-content {
+  margin-left: 75px;
+}
+
+#sidebar > a {
+  color: lightgrey;
+}

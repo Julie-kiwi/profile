@@ -147,3 +147,8 @@ div {
   text-shadow: 2px 2px black;
 }
 
+#sidebar > a:hover {
+  color : #ff5733;
+  text-shadow: 2px 2px black;
+}
+

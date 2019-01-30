@@ -33,6 +33,7 @@ body {
 h1 {
   font-family: 'Quicksand', sans-serif;
   color :#311d3f;
+  text-shadow: 1px 1px grey;
 }
 
 h2 {
@@ -107,6 +108,7 @@ div {
   color : white;
   padding : 5px;
   border-radius:6px;
+  box-shadow: 2px 2px 10px black;
 }
 
 .btn-purple:hover {
@@ -117,6 +119,7 @@ div {
 .fab {
   font-size : 40px;
   line-height: 50px;
+  text-shadow: 1px 1px black;
 }
 
 #bands td {
@@ -141,5 +144,6 @@ div {
 
 #sidebar > a {
   color: lightgrey;
+  text-shadow: 2px 2px black;
 }
 
